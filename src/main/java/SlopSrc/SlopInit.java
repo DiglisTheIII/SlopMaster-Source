@@ -16,7 +16,7 @@ import java.nio.file.Paths;
 public class SlopInit {
 
     public static void main(String[] args) throws LoginException, IOException {
-        String token = Files.readAllLines(Paths.get("C:/Users/Mason Wells/Desktop/Misc/bot shit/token.txt")).get(0);
+        String token = Files.readAllLines(Paths.get("TOKEN GOES HERE")).get(0);
         JDA jda = JDABuilder.createDefault(token, GatewayIntent.GUILD_MESSAGES, GatewayIntent.GUILD_MEMBERS,
                         GatewayIntent.GUILD_PRESENCES, GatewayIntent.GUILD_VOICE_STATES, GatewayIntent.GUILD_WEBHOOKS)
                 .disableCache(CacheFlag.EMOTE)
